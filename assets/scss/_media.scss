@@ -1,0 +1,366 @@
+// ---------big pc 1408px --------
+
+@media (max-width: 88em) {
+  html {
+    font-size: 93.75%;
+  }
+  .main-nav-list {
+    padding: 4.8rem;
+  }
+  .box-text {
+    padding: 3.2rem;
+  }
+  .text-hader {
+    top: 24rem;
+    left: 5rem;
+  }
+  .section-footer {
+    .footer {
+      grid-template-columns: 1.6fr 1fr 1fr 1.7fr;
+      padding: 9.6rem 1.4rem 0;
+      align-items: start;
+    }
+  }
+  .grid-blog {
+    padding: 0 0 6.4rem;
+  }
+  .section-team {
+    .grid-team {
+      .team-hover {
+        padding-top: 3rem;
+        .teax-team-tow {
+          font-size: 1.2rem;
+        }
+      }
+    }
+  }
+
+  //
+
+  .box-contact {
+    .box-contact-text {
+      .icon-contact {
+        font-size: 2rem;
+      }
+    }
+  }
+  .box-contact-text .icon-contact {
+    font-size: 2rem;
+  }
+  .about {
+    .form {
+      .img-form {
+        margin-top: 5rem;
+        width: 25rem;
+        height: 43rem;
+      }
+    }
+  }
+}
+//-------laptop 1200px ---------
+
+@media (max-width: 75em) {
+  html {
+    font-size: 87.5%;
+  }
+
+  .about {
+    margin: 0 0 4rem 0;
+    gap: 6rem;
+    position: relative;
+    .about-text {
+      margin-top: 2rem;
+    }
+  }
+  .project {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0 4.8rem;
+  }
+  .section-team {
+    width: 100%;
+    height: auto;
+    margin-bottom: 4.8rem;
+    .grid-team {
+      gap: 0.3rem;
+      margin: 0 0.5rem;
+      .team-hover {
+        padding-top: 5rem;
+      }
+    }
+  }
+  .section-team {
+    .grid-team {
+      .team-hover {
+        .teax-team-tow {
+          color: black;
+          font-size: 1.4rem;
+          font-weight: 700;
+          letter-spacing: 1px;
+          padding-bottom: 1.6rem;
+        }
+      }
+    }
+  }
+
+  .box-contact {
+    width: 70%;
+    margin: 0 13rem 9.6rem 9.6rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+}
+//-------tablate 992px ---------
+@media (max-width: 62em) {
+  html {
+    font-size: 81.25%;
+  }
+  .btn-mobile-nav {
+    border: none;
+    background: none;
+    cursor: pointer;
+    .icon-mobile-nav {
+      width: 4.8rem;
+      height: 4.8rem;
+      color: #f5f5f5;
+      position: absolute;
+      top: 5rem;
+      left: 5rem;
+      z-index: 16;
+    }
+  }
+  .btn-mobile-nav {
+    display: block;
+  }
+
+  .icon-close {
+    display: none;
+  }
+  .main-nav-list {
+    background-color: #696868f8;
+    position: absolute;
+    top: 0;
+    right: 60%;
+    width: 45%;
+    height: 94%;
+    border-radius: 5px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: all 0.6s;
+    pointer-events: none;
+    visibility: hidden;
+    .list-nav-first {
+      position: absolute;
+      top: 15rem;
+      left: left;
+    }
+    .list-nav-tow {
+      position: absolute;
+      top: 20rem;
+      left: left;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      color: #f8f8f8;
+    }
+  }
+
+  .slider,
+  .header {
+    height: 85vh;
+  }
+  .box-text {
+    padding: 1.18rem;
+    p:nth-of-type(1) {
+      text-align: center;
+    }
+    .box1 {
+      padding: 1rem;
+    }
+  }
+  .project {
+    padding: 0 0;
+  }
+  .section-team {
+    .grid-team {
+      padding: 0 8rem;
+      grid-template-columns: repeat(2, 1fr);
+      .team-hover {
+        padding-top: 9rem;
+      }
+    }
+  }
+
+  .box-contact {
+    margin: 0 13rem 4.6rem 9.6rem;
+  }
+  .link-project {
+    margin-left: 44%;
+  }
+
+  .about {
+    gap: 3.6rem;
+    .form {
+      .img-form {
+        object-fit: cover;
+        width: 23rem;
+      }
+    }
+    div:nth-of-type(1),
+    .box-about > div:nth-of-type(2),
+    .box-about > div:nth-of-type(3),
+    .box-about > div:nth-of-type(4) {
+      margin: 0.2rem;
+    }
+    .form-about .btn-about {
+      width: 19rem;
+    }
+  }
+  .section-contact {
+    .map-contact {
+      width: 80%;
+      height: 105vh;
+
+      grid-template-columns: 1fr;
+      .contact {
+        margin-bottom: 4.8rem;
+        width: 100%;
+      }
+    }
+  }
+  .section {
+    padding: 0 1.4rem;
+  }
+  .section-footer {
+    .footer {
+      gap: 3.2rem;
+      grid-template-columns: 1fr 1fr;
+      padding: 1.8rem 2.4rem 0;
+    }
+  }
+  .footer-copyright {
+    margin: 2.8rem 0;
+  }
+}
+////-------smaller tablate 768px ---------
+@media (max-width: 48em) {
+  html {
+    font-size: 75%;
+  }
+  .text-hader {
+    top: 21rem;
+    left: 5rem;
+  }
+  .slider,
+  .header {
+    height: 75vh;
+  }
+  .figure-img-blog > img {
+    width: 100%;
+    height: auto;
+  }
+  .box-text {
+    grid-template-columns: repeat(1, 1fr);
+
+    padding: 2.4rem 4.8rem 1.4rem;
+    .box1 {
+      width: 75%;
+      padding: 3.2rem;
+    }
+  }
+  .text-hader {
+    padding: 0 1.2rem 0;
+  }
+  .about {
+    grid-template-columns: 1fr;
+    .form {
+      justify-self: center;
+      grid-row: 2;
+      .img-form {
+        margin-top: 0;
+      }
+    }
+    .about-text {
+      margin: 0 3rem;
+    }
+  }
+  .project {
+    grid-template-columns: 1fr;
+    padding: 0 4rem;
+  }
+  .section-team .grid-team {
+    padding: 0 1.8rem;
+  }
+  .grid-blog {
+    grid-template-columns: 1fr;
+    padding: 0 4.8rem 2.4rem;
+  }
+  .section-footer {
+    height: 85vh;
+    .footer {
+      padding: 3.2rem 3.2rem 0;
+    }
+  }
+  .footer-copyright {
+    margin: 4.8rem 0;
+  }
+}
+// ----------- mobile    576px        -------------------
+@media (max-width: 36rem) {
+  .text-hader > h1:nth-of-type(1),
+  h1:nth-of-type(2) {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+  .btn-mobile-nav .icon-mobile-nav {
+    width: 4.8rem;
+    height: 4.8rem;
+    color: #f5f5f5;
+    position: absolute;
+    top: 5rem;
+    left: 5rem;
+    z-index: 16;
+  }
+  .box-text .box1 {
+    width: 100%;
+    padding: 1.2rem;
+  }
+  .btn-mobile-nav {
+    .icon-mobile-nav {
+      width: 4.2rem;
+      height: 4.2rem;
+    }
+  }
+  .about {
+    .box-about {
+      grid-template-columns: 1fr;
+      margin: 0 1.4rem;
+    }
+  }
+  .project {
+    margin: 0;
+    padding: 0;
+  }
+  .section-footer {
+    height: 105vh;
+    .footer {
+      padding: 1.2rem 1.2rem 0;
+    }
+  }
+  .link-project {
+    margin-left: 36%;
+  }
+  .section-team .grid-team {
+    grid-template-columns: 1fr;
+  }
+  .grid-blog {
+    padding: 0;
+  }
+  .box-contact {
+    margin: 0 3.2rem 9.6rem 3.2rem;
+
+    grid-template-columns: 1fr;
+  }
+}
