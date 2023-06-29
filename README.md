@@ -1,6 +1,6 @@
 # Architects
 
-interior decoration design 
+interior decoration design site
 
 - [Demo Project](https://niloofar-anisi.github.io/Architects/)
 
