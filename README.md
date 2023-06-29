@@ -1,6 +1,6 @@
 # Architects
 
- Design for interior decoration and home  you
+interior decoration design 
 
 - [Demo Project](https://niloofar-anisi.github.io/Architects/)
 
