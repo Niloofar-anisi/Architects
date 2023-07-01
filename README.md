@@ -18,7 +18,7 @@ interior decoration design Website
 
 - Developed by: niloofar anisi
 
-- Created: 2023-11-26
+- Created: 2023
 
 - Technologies Used: Html , css ,scss
 
